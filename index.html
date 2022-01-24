@@ -35,7 +35,7 @@
     <!-- header start -->
     <header class="section-margin-bottom">
         <!-- nagigation bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top mb-4">
             <div class="container">
                 <a class="navbar-brand fs-3 fw-bold" href="#"><span class="planner-color fs-2 ">Planner</span>
                     Convention
@@ -48,16 +48,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#Primary_Services">Primary Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#Pakages">Pakages</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#Get_In_Touch">Get In Touch</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#Questions">Questions</a>
                         </li>
 
                     </ul>
@@ -131,7 +131,7 @@
     <main>
 
         <!-- primary services -->
-        <section class=" container my-5 ">
+        <section class=" container my-5 " id="Primary_Services">
 
             <h1 class="fs-1 fw-bold my-5 text-center font-roboto card-text-color">Our Primary Services</h1>
             <div class="row gx-4 ">
@@ -162,8 +162,23 @@
             </div>
         </section>
 
+        <!-- added toast -->
+
+        <div class="toast show align-items-center border border-5 border-start-0 border-" role="alert"
+            aria-live="assertive" aria-atomic="true">
+            <div class="d-flex align-items-center">
+                <div class="toast-body ">
+                    <p class="fs-5 mb-0 card-text-color"><i class="fas fa-gift fs-3 me-2 planner-color "></i>25% off on
+                        next booking</p>
+
+
+                </div>
+                <button type="button" class="btn-close me-3 m-auto text-danger" data-bs-dismiss="toast"
+                    aria-label="Close"></button>
+            </div>
+        </div>
         <!-- Pakages section -->
-        <section class=" container my-5 ">
+        <section class=" container my-5 " id="Pakages">
 
             <h1 class="fs-1 fw-bold my-5 text-center font-roboto card-text-color">Our Pakages</h1>
             <div class="row gx-2 ">
@@ -319,8 +334,18 @@
             </div>
         </section>
 
+        <!-- PLan wedding section -->
+        <section class="plan-wed my-5" id="Get_In_Touch">
+            <div class="container d-flex flex-column justify-content-center align-items-start h-100">
+                <h1 class="text-white display-3  w-50">Let's Plan Your Wedding</h1>
+                <a href="https://planner-convention-center.netlify.app/" target="_blank"
+                    class="btn text-white btn-outline-light rounded-pill px-5 get-touch">Get In Touch</a>
+
+            </div>
+        </section>
+
         <!-- Frequently Asked Questions section -->
-        <section class="container my-5">
+        <section class="container my-5" id="Questions">
             <h1 class="fs-1 fw-bold my-5 text-center font-roboto card-text-color">Frequently Asked Questions</h1>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 order-2 order-sm-2 order-md-2  col-sm-5 ">
@@ -425,6 +450,37 @@
         </section>
 
     </main>
+
+    <footer class=" bg-dark">
+        <section class=" container mt-5">
+
+            <div class="row gx-4 ">
+                <!-- image -->
+                <div
+                    class="col-12 col-sm-12 col-md-6 d-flex  justify-content-center align-items-center  order-2 order-sm-2 order-md-1 ">
+
+                    <h6 class="text-white fs-5"><i class="far fa-copyright"></i> 2020 bike. All rights reserved</h6>
+                </div>
+                <div
+                    class="col-12 col-sm-12 2  col-md-6  d-flex  justify-content-center align-items-center mb-3 order-1 order-sm-1 order-md-2">
+                    <div>
+                        <h4 class="text-white mb-0">Get the App</h4>
+                        <br>
+                        <a href="https://www.apple.com/app-store/" target="_blank">
+                            <img src="./icons/apple-logo-resize.png" alt="" class="mb-2">
+                        </a>
+                        <br>
+                        <a href="https://play.google.com/store/apps?hl=en" target="_blank">
+                            <img src="./icons/playstore-resize.png" alt="" class="mb-2">
+                        </a>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+    </footer>
 
 
 

@@ -64,3 +64,20 @@ body{
     background: radial-gradient(circle, rgba(51, 152, 192, 0.773) 0%, rgba(25, 96, 129, 0.242) 77%);
   
 }
+.plan-wed{
+    background-image: url(../images/cut-wedding-cake.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.472);
+    background-blend-mode: overlay;
+}
+.get-touch:hover{
+    background-color: rgba(255, 255, 255, 0.185);
+
+}
+.footer-image{
+    min-width: 135px;
+    height: 40px;
+
+}
