@@ -11,7 +11,16 @@ body{
     margin-bottom: 80px;
 }
 .planner-color{
-    color: rgba(75, 118, 153, 0.911);
+    color: rgba(75, 118, 153);
+}
+.carousel-btn{
+    border-radius: 10px;
+    background: radial-gradient(circle, rgba(16, 105, 139, 0.835) 0%, rgba(45, 100, 126, 0.952) 77%);
+    transition: transform .6s ease-in-out;
+    
+}
+.carousel-btn:hover{
+    transform: scale(1.1);
 }
 .card-icon-color{
     color: rgba(196, 230, 250, 0.773) ;
