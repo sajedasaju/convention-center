@@ -1,18 +1,57 @@
 
 body{
-    font-family: 'Roboto', sans-serif;
+   
     font-family: 'Poppins', sans-serif;
     
 }
-
-.small-height{
-    width: 100%;
-    height: 544px;
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
 }
-.details{
-    background-image: url(/images/Untitled\ design\ \(1\).png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 100vh;
+.section-margin-bottom{
+    margin-bottom: 80px;
+}
+.planner-color{
+    color: rgba(75, 118, 153, 0.911);
+}
+.card-icon-color{
+    color: rgba(196, 230, 250, 0.773) ;
+}
+.card-btn-color{
+    
+    background: radial-gradient(circle, rgba(160, 212, 233, 0.773) 0%, rgba(134, 170, 187, 0.242) 77%);
+  
+}
+.card-text-color{
+    color:  #231D4F;
+}
+.card-special-size{
+    transform: scale(1.07);
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: 1px 4px 58px -11px rgba(90,137,163,0.76);
+
+    
+}
+.card-special-bg{
+    background: linear-gradient(90deg, rgba(106,160,236,0.5753813244047619) 0%, rgba(148,218,244,0.24221262057877813) 77%);
+    
+
+}
+.list-group-special-item {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(106,160,236,0.5753813244047619) 0%, rgba(148,218,244,0.24221262057877813) 77%);
+    border: none;
+    
+}
+.card-special-icon-color{
+    color: rgba(14, 78, 116, 0.773) ;
+}
+.card-special-btn-color{
+    
+    background: radial-gradient(circle, rgba(51, 152, 192, 0.773) 0%, rgba(25, 96, 129, 0.242) 77%);
   
 }
